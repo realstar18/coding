@@ -1,0 +1,39 @@
+body {
+    background-color: #F7F7F7; /* 부드러운 배경색 */
+    color: #333; /* 기본 텍스트 색상 */
+}
+
+/* 카드 스타일 수정 */
+.card {
+    background-color: #FFFFFF; /* 카드 배경색 */
+    border: 1px solid #E0E0E0; /* 카드 경계선 색상 */
+}
+
+/* 버튼 색상 */
+button {
+    background-color: #A0C4FF; /* 부드러운 버튼 색상 */
+    color: #fff; /* 버튼 텍스트 색상 */
+}
+
+button:hover {
+    background-color: #007BFF; /* 호버 시 색상 */
+}
+
+/* 링크 색상 */
+.card-link {
+    color: #007BFF; /* 링크 색상 */
+}
+
+.card-link:hover {
+    color: #0056b3; /* 호버 시 색상 */
+}
+
+/* 페이지네이션 색상 */
+.page-link {
+    color: #A0C4FF; /* 페이지네이션 링크 색상 */
+}
+
+.page-item.active .page-link {
+    background-color: #A0C4FF; /* 활성화된 페이지 색상 */
+    border-color: #A0C4FF; /* 활성화된 페이지 경계색 */
+}
